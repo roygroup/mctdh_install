@@ -38,7 +38,7 @@ expect "*Shall I copy mctdhrc to \$HOME/.mctdhrc (y/n) ?*" {
 	#  The .bashrc will then source .mctdhrc.
 	#  Doing so, the bash-functions cdm and minstall will be available
 	#  and a link $HOME/mctdh -> $MCTDH_DIR will be installed.
-    send "y\r";
+    send "n\r";
 }
 expect "*(y|n|le|be|lenp|benp) ?*" {
 # "y" or "le" if you want the LITTLE ENDIANS format and parallelization.
